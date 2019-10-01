@@ -295,7 +295,7 @@ let salarioAnual = salarioMensual*mesesEnUnAnio
 let salarioSemanal = salarioMensual/semanasEnUnMes
 let salarioDiario = calcularSalarioDiario (salarioSemanal , diasEnUnaSemana)
 let salarioHora = salarioDiario/horasEnUnDia
-console.log ("ganás $" + salarioAnual +" por año, $" + salarioMensual + " por mes, $" + salarioSemanal + " por semana, $" + salarioDiario + " por día, y $" + salarioHora + "por hora.")
+alert ("ganás $" + salarioAnual +" por año, $" + salarioMensual + " por mes, $" + salarioSemanal + " por semana, $" + salarioDiario + " por día, y $" + salarioHora + "por hora.")
 
         /*
     Condicionales If-Else
